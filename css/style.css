@@ -6,7 +6,7 @@ body{
 /* styling menu icon */
 .nav-menu{
     border: none;
-    background-color: #fff;
+    background-color: hotpink;
     font-size: 1.5rem;
     color: #fca61f;
 }
@@ -16,7 +16,7 @@ body{
     position: relative;
 }
 .navbar-nav a:hover{
-    color: #fca61f;
+    color: black;
 }
 .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
@@ -82,12 +82,12 @@ body{
     bottom: 0;
     left: 0;
     top: 20px;
-    background-color: #6f34fe;
+    background-color: rgba(230, 134, 192, 0.94);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
 .link:hover{
-    color: #6f34fe;
+    color:black;
 }
 .link:hover::after{
     transform: scaleX(1);
